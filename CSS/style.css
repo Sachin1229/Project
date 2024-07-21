@@ -7,3 +7,6 @@ p.xyz {
     color: red; 
     background-color: skyblue; 
 }
+p > a {
+    color: green;
+}
