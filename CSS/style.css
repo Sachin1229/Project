@@ -10,3 +10,7 @@ p.xyz {
 p > a {
     color: green;
 }
+
+ul a {
+    color: blueviolet;
+}
