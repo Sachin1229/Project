@@ -2,17 +2,46 @@
     border-width: 5px;
     border-color: red;
     border-style: solid;
+    padding-bottom: 10px;
 }
 .a{
     background-color: red;
     border-left: 2px blue solid;
+    padding-left: 10px;
 }
 .b{
     background-color: aqua;
     border-right: 2px green solid;
+    padding-right: 10px;
 }
 .c{
     background-color: aquamarine;
     border-top: 1px blue solid;
     border-bottom: 1px blue solid;
+    padding-top: 10px;
+}
+.d{
+    padding: 10px 40px 15px;
+    border: solid;
+    
+}
+.e{
+    
+    border: solid;
+}
+.f{
+    margin: 20px;
+    border: solid;
+}
+.g{
+    border: solid;
+    height: 100px;
+    width: 300px;
+}
+.h{
+    border: solid;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
 }
