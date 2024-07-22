@@ -1,6 +1,25 @@
-.abc {
+div{
+    width: 400px;
+}
+.a {
     color: #ff0000;
     background-color: #ff0;
     font-family: "Kalnia Glaze";
-    font-size: 50px;
+    font-size: 20px;
+    text-align: right;
+    
+}
+.b {
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+    text-decoration: line-through;
+    text-align: end;
+}
+.c{
+    text-align: justify;
+}
+.d{
+    text-align: center;
+    line-height: 100px;
 }
