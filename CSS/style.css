@@ -17,3 +17,6 @@ ul a {
 input[type = "submit"]{
     color: blue;
 }
+p{
+    color: rgb(255, 120, 140);
+}
