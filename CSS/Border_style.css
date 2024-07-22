@@ -1,0 +1,18 @@
+.abc{
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+}
+.a{
+    background-color: red;
+    border-left: 2px blue solid;
+}
+.b{
+    background-color: aqua;
+    border-right: 2px green solid;
+}
+.c{
+    background-color: aquamarine;
+    border-top: 1px blue solid;
+    border-bottom: 1px blue solid;
+}
