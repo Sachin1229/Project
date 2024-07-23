@@ -1,0 +1,13 @@
+div{
+    border: solid red 1px;
+    
+}
+
+p{
+    border: solid blue 1px;
+    display: inline-block;
+}
+li{
+    border: solid greenyellow 1px;
+    display: inline-block;
+}
