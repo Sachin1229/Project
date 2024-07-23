@@ -1,0 +1,16 @@
+div{
+    border: solid;
+}
+.abc{
+    position: fixed;
+    top: 20px;
+    left: 400px;
+}
+p{
+    border: solid red 1px;
+    z-index: 2;
+    background-color: aqua;
+}
+h1{
+    z-index: 1;
+}
