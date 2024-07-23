@@ -2,9 +2,33 @@
     border: dotted blue 2px;
     width: 500px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .box > div{
     border: solid blue 2px;
     border-radius: 5px;
+}
+.a{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.b{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.c{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.d{
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+.e{
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+.f{
+    flex-basis: 200px;
+    flex-shrink: 0;
 }
