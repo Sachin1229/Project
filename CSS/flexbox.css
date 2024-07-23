@@ -3,32 +3,31 @@
     width: 500px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    align-items: flex-start;
 }
 .box > div{
     border: solid blue 2px;
     border-radius: 5px;
+    justify-content:end;
 }
 .a{
     flex-basis: 100px;
-    flex-grow: 1;
+    align-self: center;
 }
 .b{
     flex-basis: 100px;
-    flex-grow: 1;
 }
 .c{
     flex-basis: 100px;
-    flex-grow: 1;
 }
 .d{
-    flex-basis: 200px;
-    flex-shrink: 1;
+    flex: 0 0 100px;
 }
 .e{
-    flex-basis: 200px;
-    flex-shrink: 1;
+    flex: 0 0 100px;
 }
 .f{
-    flex-basis: 200px;
-    flex-shrink: 0;
+    flex: 0 0 100px;
 }
