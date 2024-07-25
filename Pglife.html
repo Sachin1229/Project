@@ -12,16 +12,19 @@
             <div class="header">
             
             <a href="#"><img src="img/logo.png" height="40"></a>
-            <p class="a">Sign up  |
-            <p class="b">Log in</p>
+            <a href="#"><p class="a">Sign up  |</a>
+            <a href="#"><p class="b">Log in</p></a>
             </div>
             <h1 class="heading">Happiness per Square Foot</h1>
             <p class="bg1">
-                <img src="img/bg.png" width="1550px">
+                <img src="img/bg.png" alt="Background  Image" width="1550px">
             </p>
+            <div>
             <form class="Enter">
-                <textarea name="Enter your city to search for pgs" rows="1" cols="65">Enter your city to search for pgs</textarea>
+                <input type="text" id="search-input" placeholder="Enter your desired destination...">
+                <button onclick="performSearch()">search</button>
             </form>
+            </div> 
             
         </div>
     </body>
