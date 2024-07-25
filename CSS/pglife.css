@@ -1,0 +1,37 @@
+.header{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    border-radius: 5px;
+}
+.heading{
+    font-family: monospace;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    color: white;
+}
+.Enter{
+    z-index: 1;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    size: 100px;
+}
+.bg1{
+    position: fixed;
+    top: 50px;  
+    z-index: -1;  
+    filter: brightness(75%);
+}
+.a{
+position: absolute;
+left: 1410px;
+border-radius: 5px;
+}
+.b{ 
+    position: absolute;
+    left: 1470px;
+    border-radius: 5px;
+}

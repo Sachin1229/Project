@@ -1,6 +1,6 @@
 .box{
     border: dotted blue 2px;
-    width: 500px;
+    width: 1000px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -30,4 +30,5 @@
 }
 .f{
     flex: 0 0 100px;
+    justify-content: end;
 }
